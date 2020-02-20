@@ -141,7 +141,7 @@ a:hover {
 .___header .navbar-toggler span:nth-child(2) {
     width: 27px;
     left: 8px;
-    top: calc(50%-1px);
+    top: calc(50% - 1px);
 }
 .___header .navbar-toggler[aria-expanded='true'] span:nth-child(2) {
     transform: translateX(-35px);
@@ -404,6 +404,10 @@ a:hover {
         width: 100%;
         background: var(--primary);
     }
+    .___header .navbar-toggler {
+        width: 30px;
+        height: 30px;
+    }
     .___people .col-6 {
         margin-bottom: 4px;
     }
@@ -427,5 +431,20 @@ a:hover {
     }
     .___partners .___partners-card img {
         max-height: 50px;
+    }
+    .___front-banner .container {
+        margin:0 1rem;
+    }
+    .___footer {
+        padding: 4rem 1rem;
+    }
+    .___footer .widget {
+        margin-bottom:3rem;
+    }
+    .___footer ul {
+        padding: 3rem 0;
+        list-style: none;
+        border-bottom:2px solid #000;
+        border-top:2px solid #000;
     }
 }
