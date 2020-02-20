@@ -404,10 +404,28 @@ a:hover {
         width: 100%;
         background: var(--primary);
     }
+    .___people .col-6 {
+        margin-bottom: 4px;
+    }
     .___people .card {
         background-size: cover;
+        margin: 2px;
     }
     .___people .card h1 {
         font-size: 24px;
+    }
+    .___people .card .card-body {
+        padding-bottom: 5rem;
+    }
+    .___partners .___partners-card {
+        max-width: 100vw;
+        overflow-x: auto;
+        scrollbar-width: 0;
+    }
+    .___partners .___partners-card::-webkit-scrollbar {
+        height: 0;
+    }
+    .___partners .___partners-card img {
+        max-height: 50px;
     }
 }
