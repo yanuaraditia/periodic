@@ -1,37 +1,64 @@
 @font-face {
-    font-family: Circular;
+    font-family: Manrope;
+    src: url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-extrabold.woff2) format("woff2"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-extrabold.woff) format("woff"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-extrabold.otf) format("truetype");
     font-style: normal;
-    font-weight: 400;
-    src: local("Circular Std"), url("https://d33wubrfki0l68.cloudfront.net/8336edf3b053bbd8831bc8d02fc20bb7cca5c2db/68d43/static/circularstd-book-c8ae3e93ae16983c73a68cf537557de2.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/30caccc44382615aea60abb46cc46e0a18d09332/a6721/static/circularstd-book-ed76eb21560f0dc038cce0adfd65ea3c.woff") format("woff")
+    font-weight: 800
 }
 
 @font-face {
-    font-family: Circular;
+    font-family: Manrope;
+    src: url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-bold.woff2) format("woff2"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-bold.woff) format("woff"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-bold.otf) format("truetype");
     font-style: normal;
-    font-weight: 700;
-    src: local("Circular Std Bold"), url("https://d33wubrfki0l68.cloudfront.net/8972718b9c24eeeecb067082d48002a7bc517148/87898/static/circularstd-bold-97ca95083f8be0c5d7ee9907cfe28af1.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/49a0197b0d82fc86d8ce5f90389483834e1cc410/2fd25/static/circularstd-bold-1ced22ee6d45bdd05a5383fd9dbd1b43.woff") format("woff")
+    font-weight: 700
 }
 
 @font-face {
-    font-family: Circular;
+    font-family: Manrope;
+    src: url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-semibold.woff2) format("woff2"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-semibold.woff) format("woff"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-semibold.otf) format("truetype");
     font-style: normal;
-    font-weight: 500;
-    src: local("Circular Std Medium"), url("https://d33wubrfki0l68.cloudfront.net/283347690e2a3bbca211e5af39e24e00d30d3a0a/50478/static/circularstd-medium-029c2e0e19032f6cdbef9042552e79fa.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/69f1d885c041aae6bf2c4cb5d99c59df299b6a93/ba33e/static/circularstd-medium-bb9a359afc17edc2c275b4212b8f2fd2.woff") format("woff")
+    font-weight: 600
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-medium.woff2) format("woff2"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-medium.woff) format("woff"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-medium.otf) format("truetype");
+    font-style: normal;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-regular.woff2) format("woff2"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-regular.woff) format("woff"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-regular.otf) format("truetype");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-light.woff2) format("woff2"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-light.woff) format("woff"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-light.otf) format("truetype");
+    font-style: normal;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-thin.woff2) format("woff2"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-thin.woff) format("woff"), url(https://cdn.shopify.com/s/files/1/0267/5189/3575/t/2/assets/manrope-thin.otf) format("truetype");
+    font-style: normal;
+    font-weight: 200
 }
 :root {
     --primary:#ffcc00;
     --primary-light:#ffdd00;
-    --fontA: 'Circular',sans-serif;
-    --fontB: 'Circular', sans-serif;
+    --font: Manrope,sans-serif;
 }
 html, body {
-    font-family: var(--fontA);
+    font-family: var(--font);
     background: #fff;
     color: #050505;
 }
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-    font-family: var(--fontB);
-    font-weight: 700;
+    font-family: var(--font);
+    font-weight: 800;
 }
 a {
     color: var(--primary);
@@ -42,9 +69,12 @@ a:hover {
 .btn {
     border: 2px solid transparent;
     border-radius: 0;
-    font-family: var(--fontB);
-    font-weight: 700;
+    font-family: var(--font);
+    font-weight: 800;
     position: relative;
+}
+.btn-lg {
+    padding: .5rem 1.5rem;
 }
 .btn::before {
     content: "";
@@ -103,6 +133,97 @@ a:hover {
 .btn-outline-light::after, .btn-outline-light::before {
     background: #fff;
 }
+.mt-sec {
+    margin-top:calc(var(--padtop) + .5rem);
+}
+.card {
+    box-shadow:none;
+    border:none;
+    background: transparent;
+}
+.___form {
+    background: #eee;
+}
+.___form .label {
+    font-weight: 700;
+}
+.form-control {
+    height: auto;
+    padding: .5rem 1rem;
+    border: none;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+}
+.form-control:focus, .form-control:active {
+    box-shadow: 0 0 0 2px var(--primary);
+}
+.form-check {
+    padding-left: 1rem;
+    cursor: grab;
+}
+.form-check .form-check-input {
+    opacity: 0;
+}
+.form-check .form-check-label {
+    cursor: grab;
+}
+.form-check .form-check-input ~ .form-check-label::before {
+    content: "";
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    left: 0;
+    position: absolute;
+    border-radius: 4px;
+    cursor: grab;
+}
+.form-check .form-check-input[type=radio] ~ .form-check-label::before {
+    border-radius: 100px;
+    cursor: grab;
+}
+.form-check .form-check-input ~ .form-check-label::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--primary);
+    left: 2px;
+    top: 2px;
+    position: absolute;
+    border-radius: 4px;
+    transition: .2s ease-in-out;
+}
+.form-check .form-check-input:not(:checked) ~ .form-check-label::after {
+    transform: scale(0);
+}
+.form-check .form-check-input[type=radio] ~ .form-check-label::after {
+    background: #fff;
+    border: 5px solid var(--primary);
+    border-radius: 100px;
+}
+.form-check .form-check-input:disabled ~ .form-check-label::before {
+    background: #eee;
+}
+.select2-container--default .select2-selection--single {
+    height: auto;
+    padding: .3rem 1rem;
+    border:none;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+}
+.select2-dropdown {
+    border:none;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+    padding: .4rem;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border:2px solid #000;
+    outline:none;
+}
+.___rad {
+    border-radius:10000px;
+}
 .___blur {
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
@@ -126,7 +247,7 @@ a:hover {
 }
 .___header .navbar-toggler span {
     height: 2px;
-    background: var(--primary);
+    background: #fff;
     display: block;
     position: absolute;
     transition: all .22s ease-in-out;
@@ -174,7 +295,7 @@ a:hover {
 }
 .___header .navbar-nav .nav-link {
     color: #fff;
-    font-family: var(--fontB);
+    font-family: var(--font);
     font-weight: 500;
 }
 .___header .navbar-nav .nav-link p {
@@ -215,16 +336,39 @@ a:hover {
     background: transparent;
 }
 .___front-banner {
+    z-index: 1;
     color: #fff;
     background: var(--bg);
     background-size: cover;
+    background-color: var(--primary);
+    background-blend-mode: luminosity;
     height: 100vh;
     align-items: stretch;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.___front-banner::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+.___front-banner h2 {
+    font-weight:400;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.___front-banner .container {
+    z-index: 3;
+}
 .___front-banner .___copyright {
+    z-index: 3;
     position: absolute;
     bottom: 3rem;
     right: 3rem;
@@ -252,11 +396,12 @@ a:hover {
     justify-content: space-between;
 }
 .___partners {
-    background: #ddd;
+    background: #f1f1f1;
 }
 .___partners .___partners-card img {
     display: inline-block;
     max-height: 60px;
+    margin: 0 10px;
 }
 .___partners .___partners-card img:not(:hover) {
     filter: grayscale();
@@ -265,11 +410,11 @@ a:hover {
     border: none;
     border-radius: 0;
     background: var(--bg);
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center;
     background-color: #fff;
     background-blend-mode: luminosity;
-    height: 100%;
+    height: 300px;
     position: relative;
     overflow: hidden;
     color: #000;
@@ -289,9 +434,32 @@ a:hover {
     position: absolute;
     bottom: 1rem;
 }
+.___images {
+    margin-top: 1rem;
+    display: block;
+    list-style: none;
+}
+.___images .face {
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    margin-left: -1rem;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    line-height: 1;
+    box-sizing: content-box;
+    background-color: #e6f1f8;
+}
+.___images .face img{
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
 .___footer {
     background: var(--primary);
-    font-family: var(--fontB);
+    font-family: var(--font);
     font-weight: 700;
 }
 .___footer a {
@@ -301,6 +469,35 @@ a:hover {
     color: #050505;
     text-decoration: none;
     box-shadow: 0 2px 0 0 #050505;
+}
+.page-link {
+    border:2px solid #000;
+    font-weight:700;
+    color: #000;
+}
+.page-link:hover {
+    color: var(--primary);
+    border-color: #000;
+    background: #000;
+}
+.page-item:first-child .page-link,.page-item:last-child .page-link {
+    border-radius: 0;
+}
+.page-item:not(:last-child) .page-link {
+    border-right: 0;
+}
+.___custom .list-group-item {
+    border: 2px solid #000;
+}
+.___custom .list-group-item a {
+    color: #000;
+    font-weight: 700;
+}
+.___custom .list-group-item:not(:last-child) {
+    border-bottom: 0;
+}
+.___custom .list-group-item:last-child,.___custom .list-group-item:first-child {
+    border-radius: 0;
 }
 @media (min-width: 1200px) {
     .___footer .container {
@@ -317,10 +514,13 @@ a:hover {
         padding: 4rem 0;
     }
     .trans .navbar-brand {
-        color: var(--primary);
+        color: #fff;
     }
     .___header:not(.trans), .trans.active {
         background: #050505;
+    }
+    .___header.foot {
+        background: transparent!important;
     }
     .___header {
         padding: 1rem 3rem;
@@ -336,6 +536,12 @@ a:hover {
         padding: .5rem 3rem;
         position: relative;
     }
+    .___header.foot .navbar-brand {
+        color: #000;
+    }
+    .___header.foot .navbar-toggler[aria-expanded=false] span {
+        background: #000;
+    }
     .___header .dropdown-menu {
         padding: 0 3rem;
     }
@@ -347,14 +553,33 @@ a:hover {
         font-size:4rem;
     }
     .___partners .container {
-        max-width: 600px;
+        max-width: 950px;
     }
     .___partners .___partners-card {
+        display: inline-flex;
         margin-top: 1rem;
+    }
+    .___why small {
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .___why h1 {
+        font-weight: 800;
+        line-height: 1;
+        font-size: 48px;
+    }
+    .___why .subtitle {
+        font-size: 1.3rem;
     }
     .___people .card .card-body {
         width: 100%;
         height: 100%;
+    }
+    .___people .card .card-body .card-title {
+        font-size: 35px;
+    }
+    .mw-900 {
+        max-width: 900px;
     }
     .___footer ul {
         list-style: none;
@@ -431,6 +656,9 @@ a:hover {
     }
     .___partners .___partners-card img {
         max-height: 50px;
+    }
+    .___front-banner {
+        background-position: center;
     }
     .___front-banner .container {
         margin:0 1rem;
